@@ -1,5 +1,5 @@
 
-#include "LowPassFilter.hpp"
+#include "../include/LowPassFilter.hpp"
 
 LowPassFilter::LowPassFilter():
 	output(0), 
