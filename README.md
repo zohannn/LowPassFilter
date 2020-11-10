@@ -7,6 +7,21 @@ Note that using with dynamic cycle time is much slower becouse e^(cutOffFrequenc
 ## Note
 There is now a more advanced library containing higher order filters see https://github.com/overlord1123/DigitalFilters.
 
+## Build
+
+```Bash
+git clone https://github.com/zohannn/LowPassFilter.git
+mkdir Debug
+cd Debug
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+make
+cd ..
+mkdir Release
+cd Release
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
+```
+
 ## Example with static cycle time
 
 ```c++
